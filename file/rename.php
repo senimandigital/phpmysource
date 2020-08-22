@@ -65,7 +65,7 @@ $key = $key ? $key + 1 : 1;
           <td width="5"><input type="checkbox" class="replace" key="<?php echo $key; ?>" value="<?php echo $find; ?>" replace="<?php echo $replace; ?>" checked="checked" /></td>
           <td><?php echo $find; ?></td>
           <td><?php echo $replace; ?></td>
-        <td><a aid="<?php echo $key; ?>_report">Ready</a></td>
+        <td><a id="<?php echo $key; ?>_report">Ready</a></td>
         </tr>
 <?php } ?>
       </tbody>
